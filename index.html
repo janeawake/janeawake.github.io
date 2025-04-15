@@ -1,0 +1,220 @@
+---
+title: Home
+---
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dime Box Pecans</title>
+<style>
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Roboto", sans-serif;
+  color: #777;
+}
+
+.topnav {
+  background: white;
+  overflow: hidden;
+}
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.topnav li {
+    float: right;
+}
+
+.topnav li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav li a:hover {
+    color: #000;
+}
+
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.80;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("images/farm.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("images/farm2.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("images/farm3.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+footer {
+  background: white;
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 55px;
+}
+footer p {
+  font-size: 13px;
+  line-height: 25px;
+  color: #919191;
+}
+footer a {
+  color: #595959;
+}
+footer .footer-manu {
+  padding-bottom: 25px;
+}
+footer .footer-manu ul {
+  margin: 0px;
+  padding: 0px;
+}
+footer .footer-manu ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+footer .footer-manu ul li a {
+  display: inline-block;
+  color: #494949;
+}
+footer .footer-manu ul li a:hover {
+  color: #000;
+}
+a,
+a:active,
+a:focus,
+a:active {
+  text-decoration: none !important;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="topnav">
+    <ul>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+      <li><a href="/thoughts.html">Thoughts</a></li>
+      <li style="float:left"><a href="http://www.dimeboxpecans.com/">
+            <img src="images/logo.png" alt="Dime Box Pecans Logo">
+          </a>
+      </li>
+    </ul>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:48px;color: #f7f7f7;">Dime Box Pecans</span>
+    <br />
+    <span class="border" style="background-color:transparent;font-size:25;color: #f7f7f7;">A squirrel ranch in the making</span>
+  </div>
+</div>
+
+<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">About Us</h3>
+  <p>We are working to establish a small pecan orchard. This website is for our friends and family to track our progress.</p>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"> </span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <p style="text-align:center;">Now with MORE Weimaraners!</p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"> </span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+  <h3 style="text-align:center;">Have Suggestions?</h3>
+  <p style="text-align:center;">We are always interested in hearing new ideas.</p>
+  </div>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:42;color: white;">Come back regularly to check out the latest progress!</span>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-manu">
+          <ul>
+            <li><a href="/thoughts.html">Thoughts</a></li>
+            <li><a href="/contact.html">Contact Us</a></li>
+            <li><a href="/about.html">About Us</a></li>
+          </ul>
+        </div>
+        <p>Copyright &copy; Dime Box Pecans</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
